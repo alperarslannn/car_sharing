@@ -1,3 +1,48 @@
+# Binaries
+*.class
+*.jar
+*.war
+*.ear
+*.db
+rebel.xml
+
+# Maven
+bin/
+target/
+
+# Eclipse
+.settings/
+.classpath
+.project
+*.jsfdia
+
+# SCM
+.svn/
+.git/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Misc
+*.swp
+.factorypath
+.tern-project
+
+# IntelliJ
+.idea/
+*.iml
+
+# Angular
+node_modules/
+node/
+.flattened-pom.xml
+/service/.sts4-cache
+
+# Build scripts
+.build/
+
 .gradle
 **/build/
 !src/**/build/
@@ -19,3 +64,5 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+.idea
